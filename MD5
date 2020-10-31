@@ -1,7 +1,7 @@
-ca279777321494d16af09692576decb8 *DESCRIPTION
+2732a62072c1eb6f60c15b434a086bd2 *DESCRIPTION
 3ce9dc2dc9fc37741fc07679f361429a *LICENSE.note
-8756ba10c1077b263f4a256464eaabf3 *NAMESPACE
-728bca8206202bd53dd94a8b74b38193 *NEWS.md
+e1541c5e4ddb9959909bcaf73d5cf170 *NAMESPACE
+c8bdc9b2c6b74ab2813f5b4e861896f1 *NEWS.md
 b4fea537648ecd921189d173232a92da *R/adapters.R
 394dd750f9469f25b8d2cd1b30179116 *R/amBarChart.R
 34ec58d679ef46aeb5741eca632ba9e0 *R/amDumbbellChart.R
@@ -12,6 +12,7 @@ b69eb5a13ab54c1d5352c5b2db10583b *R/amHorizontalDumbbellChart.R
 18b8ace82b19056db7f779db6974c732 *R/amRadialBarChart.R
 897ca19028f8a46ad5eff5d4b2d31896 *R/amRangeAreaChart.R
 70301dabd993448d737af07b319a2f02 *R/amScatterChart.R
+bde5747f934b430800f20ec027df5bba *R/amStackedBarChart.R
 8a1bbed682cdcf8a5331c8b52f4c8e3b *R/axisLabels.R
 6ddb9cfbe5b2fd7888e953d2a65d516c *R/bullets.R
 5f3e486e6c9dc8be5e8a250902314746 *R/button.R
@@ -24,14 +25,14 @@ ecedf273d214cda88ca361e9701dbef5 *R/legend.R
 0b2470124bc91688b383e9dadebffa61 *R/lineStyle.R
 284db9a89f3160e04f55fa2f25da33c2 *R/rAmCharts4-import.R
 3c5c2fb2f4ff6ab288e934baa7cbc438 *R/segmentStyle.R
-f9303173868ade3bff21acd9cffd2c73 *R/shiny.R
+40e68b4228738fa93e3ae3b214546d4f *R/shiny.R
 6e945264f42ebc97ca200d63f72ec186 *R/text.R
 8379b2a60a53f5c182a7f87cc920e035 *R/tinyIcon.R
 8a339d2bd269e512b2ea61a25834b832 *R/tooltip.R
 ffdb15be06224e8f94cbfdb8b758a96e *R/zzz.R
-c0ab1c50bc41530095b1204ac6ab14be *README.md
-e6d51e077e79a1e09402032eb861e827 *inst/htmlwidgets/amChart4.js
-a6a820af44709c0e85c7a535e7097f9c *inst/htmlwidgets/amChart4.js.map
+5d4e1652b12579bdfe69e89c5af5e968 *README.md
+faca002ac465618c2536b3c1f21d6c4d *inst/htmlwidgets/amChart4.js
+c0fdeba64badee914ed99aa645315aad *inst/htmlwidgets/amChart4.js.map
 499a2bf7d78df0db27b2ce9ea7335e55 *inst/htmlwidgets/amChart4.yaml
 d10c8e4ea8c6afebf75f275b13e0eada *inst/htmlwidgets/css/amcharts4.css
 5c1bb144cb0b67c7daa628de1f691684 *inst/super-tiny-icons/LICENSE
@@ -303,6 +304,7 @@ de3c7e4ef14edd29462145249caa1549 *man/amHorizontalDumbbellChart.Rd
 c85a9e6d9d3e070f93c6ca6b89e1c69a *man/amRangeAreaChart.Rd
 7b824a995de6f6d2f4603abecd753309 *man/amScatterChart.Rd
 41a952849021f0ac8188a5ae798d8689 *man/amSegment.Rd
+a86e5c0fc3f0eaef910d22e500c19d46 *man/amStackedBarChart.Rd
 a632c718dc203efcd326c8ad4335c0d3 *man/amText.Rd
 5df98caef4232d30fe90322943cb40a9 *man/amTooltip.Rd
 2caadf5d23316822aa1cbdd36898b51f *man/rAmCharts4-adapters.Rd
@@ -310,4 +312,5 @@ a632c718dc203efcd326c8ad4335c0d3 *man/amText.Rd
 4a60f660e406509d766d2d5458a1fb79 *man/rAmCharts4-shapes.Rd
 54d3fc8d0b2ad8eccf45fce66f711fd3 *man/rAmCharts4-shiny.Rd
 31f6d9b1bd761d1b9cf208285d57258f *man/tinyIcon.Rd
+f2567d9fbc136f80e014ce1c69ed766b *man/updateAmBarChart.Rd
 b30c50867e7b77b310d2fbad3463cbd0 *man/updateAmGaugeChart.Rd
