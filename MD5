@@ -1,7 +1,7 @@
-44fddb0dc75212413346cbf8cc298c77 *DESCRIPTION
+40610cf87edda20a6f1a7bca2fc4bc1e *DESCRIPTION
 3ce9dc2dc9fc37741fc07679f361429a *LICENSE.note
 dd49cdbfaf8b9031c7743dcb0ff4f847 *NAMESPACE
-22b5778d4dc06bfd8cdc22c1b47fdfba *NEWS.md
+edaadef7a69ee3091219ad41bf7a69ca *NEWS.md
 b4fea537648ecd921189d173232a92da *R/adapters.R
 9c488cf9061a0e9b4098979acc01424e *R/amBarChart.R
 8b34a4aa4890010fd17d6e91b897273f *R/amBoxplotChart.R
@@ -22,7 +22,7 @@ d45df14cf2cc3031778678ffc60d605b *R/columnStyle.R
 ed52c186d053abe1283ece434ba4c279 *R/font.R
 1079ed1df1f2e37803c10137b0255bf1 *R/hand.R
 38ece54f98db43fcd28be25f95eda74f *R/image.R
-b1cd98cbab575708af9003d71b248900 *R/internal.R
+016a889f72ce2d83c1143207be05a1ae *R/internal.R
 6f188ff02355896c89603aa482288053 *R/legend.R
 0b2470124bc91688b383e9dadebffa61 *R/lineStyle.R
 284db9a89f3160e04f55fa2f25da33c2 *R/rAmCharts4-import.R
@@ -33,8 +33,8 @@ ce104ba94192d8541d37174b3cb9d802 *R/shiny.R
 8a339d2bd269e512b2ea61a25834b832 *R/tooltip.R
 ffdb15be06224e8f94cbfdb8b758a96e *R/zzz.R
 2a2388160640c60b7870a80c1be7d5d0 *README.md
-75355c2c236a779500f0aeabaea06576 *inst/htmlwidgets/amChart4.js
-1949f61f8fb5c3c02b041f3404e83b14 *inst/htmlwidgets/amChart4.js.map
+4fc2cc478b4a8d157b36fcbc5021d179 *inst/htmlwidgets/amChart4.js
+a19c2c971629698a8f1651787cacf207 *inst/htmlwidgets/amChart4.js.map
 499a2bf7d78df0db27b2ce9ea7335e55 *inst/htmlwidgets/amChart4.yaml
 d10c8e4ea8c6afebf75f275b13e0eada *inst/htmlwidgets/css/amcharts4.css
 5c1bb144cb0b67c7daa628de1f691684 *inst/super-tiny-icons/LICENSE
