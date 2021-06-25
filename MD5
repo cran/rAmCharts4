@@ -1,7 +1,7 @@
-40610cf87edda20a6f1a7bca2fc4bc1e *DESCRIPTION
+0a86c91dd7e58038c6d8d0db834eb5f9 *DESCRIPTION
 3ce9dc2dc9fc37741fc07679f361429a *LICENSE.note
 dd49cdbfaf8b9031c7743dcb0ff4f847 *NAMESPACE
-edaadef7a69ee3091219ad41bf7a69ca *NEWS.md
+a6fba64ef432f5b0c4430a2522e30215 *NEWS.md
 b4fea537648ecd921189d173232a92da *R/adapters.R
 9c488cf9061a0e9b4098979acc01424e *R/amBarChart.R
 8b34a4aa4890010fd17d6e91b897273f *R/amBoxplotChart.R
@@ -33,8 +33,8 @@ ce104ba94192d8541d37174b3cb9d802 *R/shiny.R
 8a339d2bd269e512b2ea61a25834b832 *R/tooltip.R
 ffdb15be06224e8f94cbfdb8b758a96e *R/zzz.R
 2a2388160640c60b7870a80c1be7d5d0 *README.md
-4fc2cc478b4a8d157b36fcbc5021d179 *inst/htmlwidgets/amChart4.js
-a19c2c971629698a8f1651787cacf207 *inst/htmlwidgets/amChart4.js.map
+15c08fd32465e19336c9750fffd4ad44 *inst/htmlwidgets/amChart4.js
+8a922baaa0d1cc6d1520bd9cfbfa2179 *inst/htmlwidgets/amChart4.js.map
 499a2bf7d78df0db27b2ce9ea7335e55 *inst/htmlwidgets/amChart4.yaml
 d10c8e4ea8c6afebf75f275b13e0eada *inst/htmlwidgets/css/amcharts4.css
 5c1bb144cb0b67c7daa628de1f691684 *inst/super-tiny-icons/LICENSE
