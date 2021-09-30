@@ -1,3 +1,12 @@
+# rAmCharts4 1.4.1
+
+* Fixed a bug: `amPercentageBarChart` did not work with Shiny.
+* New function `updateAmPercentageBarChart`, to update the data of a 100% 
+stacked bar chart in Shiny.
+* Enabled the data exporting (CSV, JSON, HTML).
+* Upgraded 'amcharts4'.
+
+
 # rAmCharts4 1.4.0 (2021-09-11)
 
 Added the 100% stacked bar chart (`amPercentageBarChart`).
