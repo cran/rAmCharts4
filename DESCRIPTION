@@ -1,6 +1,6 @@
 Package: rAmCharts4
 Title: Interface to the JavaScript Library 'amCharts 4'
-Version: 1.4.1
+Version: 1.5.0
 Authors@R: c(
     person(given = "Stéphane",
            family = "Laurent",
@@ -31,9 +31,9 @@ Imports: htmltools, htmlwidgets (>= 1.5.3), reactR, shiny, jsonlite,
         lubridate, minpack.lm, tools, base64enc, xml2, stringr, stats,
         grDevices
 Suggests: reshape2
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 NeedsCompilation: no
-Packaged: 2021-09-30 14:02:44 UTC; SDL96354
+Packaged: 2021-10-10 15:53:55 UTC; SDL96354
 Author: Stéphane Laurent [aut, cre],
   Antanas Marcelionis [ctb, cph] ('amCharts' library
     (https://www.amcharts.com/)),
@@ -42,4 +42,4 @@ Author: Stéphane Laurent [aut, cre],
   Tom Alexander [ctb, cph] ('regression-js' library
     (https://github.com/Tom-Alexander/regression-js))
 Repository: CRAN
-Date/Publication: 2021-09-30 15:00:02 UTC
+Date/Publication: 2021-10-10 18:40:02 UTC
