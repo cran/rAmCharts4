@@ -39,10 +39,7 @@
 #'   a list of settings created with \code{\link{amText}}, or a list with two
 #'   fields: \code{text}, a list of settings created with \code{\link{amText}},
 #'   and \code{align}, can be \code{"left"}, \code{"right"} or \code{"center"}
-#' @param theme theme, \code{NULL} or one of \code{"dataviz"},
-#'   \code{"material"}, \code{"kelly"}, \code{"dark"}, \code{"moonrisekingdom"},
-#'   \code{"frozen"}, \code{"spiritedaway"}, \code{"patterns"},
-#'   \code{"microchart"}
+#' @template themeTemplate
 #' @param backgroundColor a color for the chart background; it can be given by
 #'   the name of a R color, the name of a CSS
 #'   color, e.g. \code{"aqua"} or \code{"indigo"}, an HEX code like
@@ -110,6 +107,7 @@ amGaugeChart <- function(
   gridLines = FALSE,
   chartTitle = NULL,
   theme = NULL,
+  animated = TRUE,
   backgroundColor = NULL,
   caption = NULL,
   image = NULL,
@@ -216,6 +214,7 @@ amGaugeChart <- function(
       gridLines = gridLines,
       chartTitle = chartTitle,
       theme = theme,
+      animated = animated,
       backgroundColor = validateColor(backgroundColor),
       caption = caption,
       image = image,

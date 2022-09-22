@@ -107,10 +107,7 @@
 #'   a list of settings created with \code{\link{amText}}, or a list with two
 #'   fields: \code{text}, a list of settings created with \code{\link{amText}},
 #'   and \code{align}, can be \code{"left"}, \code{"right"} or \code{"center"}
-#' @param theme theme, \code{NULL} or one of \code{"dataviz"},
-#'   \code{"material"}, \code{"kelly"}, \code{"dark"}, \code{"moonrisekingdom"},
-#'   \code{"frozen"}, \code{"spiritedaway"}, \code{"patterns"},
-#'   \code{"microchart"}
+#' @template themeTemplate
 #' @param draggable \code{TRUE}/\code{FALSE} to enable/disable dragging of
 #' all lines, otherwise a named list of the form
 #' \code{list(yvalue1 = TRUE, yvalue2 = FALSE, ...)} to enable/disable the
@@ -349,6 +346,7 @@ amScatterChart <- function(
   trend = FALSE,
   chartTitle = NULL,
   theme = NULL,
+  animated = TRUE,
   draggable = FALSE,
   tooltip = NULL, # default
   pointsStyle = NULL, # default
@@ -1003,6 +1001,7 @@ amScatterChart <- function(
       vline = vline,
       chartTitle = chartTitle,
       theme = theme,
+      animated = animated,
       draggable = draggable,
       tooltip = tooltip,
       pointsStyle = pointsStyle,

@@ -45,10 +45,7 @@
 #'   a list of settings created with \code{\link{amText}}, or a list with two
 #'   fields: \code{text}, a list of settings created with \code{\link{amText}},
 #'   and \code{align}, can be \code{"left"}, \code{"right"} or \code{"center"}
-#' @param theme theme, \code{NULL} or one of \code{"dataviz"},
-#'   \code{"material"}, \code{"kelly"}, \code{"dark"}, \code{"moonrisekingdom"},
-#'   \code{"frozen"}, \code{"spiritedaway"}, \code{"patterns"},
-#'   \code{"microchart"}
+#' @template themeTemplate
 #' @param tooltip settings of the tooltips; \code{NULL} for default,
 #'   \code{FALSE} for no tooltip, otherwise a named list of the form
 #'   \code{list(series1 = settings1, series2 = settings2, ...)} where
@@ -202,6 +199,7 @@ amStackedBarChart <- function(
   valueFormatter = "#.",
   chartTitle = NULL,
   theme = NULL,
+  animated = TRUE,
   tooltip = NULL, # default
   threeD = FALSE,
   backgroundColor = NULL,
@@ -562,6 +560,7 @@ amStackedBarChart <- function(
       valueFormatter = valueFormatter,
       chartTitle = chartTitle,
       theme = theme,
+      animated = animated,
       tooltip = tooltip,
       threeD = threeD,
       backgroundColor = validateColor(backgroundColor),

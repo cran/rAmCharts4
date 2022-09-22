@@ -32,10 +32,7 @@
 #'   a list of settings created with \code{\link{amText}}, or a list with two
 #'   fields: \code{text}, a list of settings created with \code{\link{amText}},
 #'   and \code{align}, can be \code{"left"}, \code{"right"} or \code{"center"}
-#' @param theme theme, \code{NULL} or one of \code{"dataviz"},
-#' \code{"material"}, \code{"kelly"}, \code{"dark"}, \code{"moonrisekingdom"},
-#' \code{"frozen"}, \code{"spiritedaway"}, \code{"patterns"},
-#' \code{"microchart"}
+#' @template themeTemplate
 #' @param tooltip \code{TRUE} for the default tooltips,
 #'   \code{FALSE} for no tooltip, otherwise a string for the text to
 #'   display in the tooltip
@@ -138,6 +135,7 @@ amBoxplotChart <- function(
   valueFormatter = "#.",
   chartTitle = NULL,
   theme = NULL,
+  animated = TRUE,
   tooltip = TRUE, # default
   bullets = NULL, # default
   backgroundColor = NULL,
@@ -407,6 +405,7 @@ amBoxplotChart <- function(
       valueFormatter = valueFormatter,
       chartTitle = chartTitle,
       theme = theme,
+      animated = animated,
       tooltip = tooltip,
       bullets = bullets,
       backgroundColor = validateColor(backgroundColor),
